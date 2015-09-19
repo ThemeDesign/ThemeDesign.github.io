@@ -20,19 +20,18 @@ body {
 	font-family: font_text !important;
 }
 
-header{
-	background-image: url(img/6.jpg);
-	padding-top: 6% !important;
+header {
+	background-image: url(img/1.jpg);
+	background-size: cover;
 }
 
-
-header h1{
-	font-size: 200px !important;
-	color: #000;
+header .centerkol {
+	margin-top: 0px !important;
 }
 
-header .kol-75{
-	border: 12px solid #000;
-	padding: 40px !important;
-	background-color: #FFF;
+header h1 {
+	font-size: 180px !important;
+	color: #FFF !important;
+	font-weight: bolder;
+	text-shadow: 1px 1px 1px #ccc;
 }

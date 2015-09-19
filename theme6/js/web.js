@@ -5,5 +5,3 @@ $(window).resize(function () {
 $(document).ready(function () {
 	$("header").css("height", $(window).height() + "px");
 });
-
-$('#h1first').fitText();
