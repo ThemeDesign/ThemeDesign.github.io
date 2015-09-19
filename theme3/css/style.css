@@ -1,0 +1,151 @@
+@font-face {
+	font-family: font_title;
+	src: url(fonts/title.ttf);
+}
+
+@font-face {
+	font-family: font_text;
+	src: url(fonts/Lato-Regular.ttf);
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+.title {
+	font-family: font_title !important;
+}
+
+.text {
+	font-family: font_text !important;
+}
+
+header h1 {
+	font-size: 480px !important;
+	position: relative;
+	z-index: 999999;
+	top: 70px;
+	color: #F1BA20;
+}
+
+header img {
+	width: 550px;
+	position: relative;
+	z-index: 1;
+	top: -240px;
+}
+
+#textfirst {
+	position: relative;
+	/* background-color: #FFF; */
+	position: relative;
+	top: -33em;
+	z-index: 999;
+	padding: 10px;
+}
+
+#textfirst p {
+	width: 50%;
+	float: right;
+	text-align: left;
+	font-size: 24px;
+	background-color: #FFF;
+	padding: 7px;
+}
+
+#textsecond {
+	position: relative;
+	/* background-color: #FFF; */
+	position: relative;
+	top: -32em;
+	z-index: 999;
+	padding: 10px;
+}
+
+#textsecond p {
+	width: 50%;
+	float: right;
+	text-align: left;
+	font-size: 24px;
+	background-color: #FFF;
+	padding: 7px;
+}
+
+#firstimage {
+	position: relative;
+	top: -12em;
+}
+
+#firstimage section {
+	border: 2px solid #000;
+	padding: 10px !important;
+	position: relative;
+	right: 150px;
+	top: 50px;
+}
+
+#firstimage section>header>h3 {
+	font-size: 80px !important;
+}
+
+#firstimage section>article>p {
+	line-height: 40px;
+	font-size: 22px;
+	color: #000 !important;
+}
+
+#secondimage img {
+	width: 100%;
+}
+
+#secondimage .butn {
+	font-size: 30px !important;
+	padding-left: 60px !important;
+	padding-right: 60px !important;
+	position: relative;
+	top: -30px;
+	right: 30px;
+	border: 3px solid #ccc !important;
+}
+
+#thirdimage{
+	margin-top: 8em;
+}
+
+#thirdimage img{
+	width: 100%;
+}
+
+.first3 .padding{
+	padding-left: 50px !important;
+	padding-right: 50px !important;
+}
+
+.second3{
+	margin-top: -3em;
+}
+
+.second3 .kol-75{
+	border: 2px solid #000;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.second3 h4{
+	font-size: 45px !important;
+}
+
+.second3 p{
+	line-height: 35px;
+	font-size: 18px;
+}
+
+footer{
+	margin-top: 6em !important;
+	margin-bottom: 3em !important;
+}
+
+footer b{
+	font-size: 50px !important;
+}

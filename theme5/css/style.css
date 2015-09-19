@@ -1,0 +1,149 @@
+@font-face {
+	font-family: font_title;
+	src: url(fonts/title.ttf);
+}
+
+@font-face {
+	font-family: font_text;
+	src: url(fonts/Lato-Regular.ttf);
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+.title {
+	font-family: font_title !important;
+}
+
+.text {
+	font-family: font_text !important;
+<<<<<<< HEAD
+}
+
+#block1 {
+	background-image: url(img/3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block1 h1 {
+	font-size: 300px;
+	color: #FFF;
+	margin-top: 10%;
+	text-shadow: 0.5px 0.5px 0.5px #ccc;
+}
+
+#block1 p {
+	color: #FFF;
+	font-size: 36px;
+	text-shadow: 0.5px 0.5px 0.5px #ccc;
+}
+
+#block1 h1::after {
+	content: " ";
+	border: solid 4px #FFF;
+	display: block;
+	width: 40%;
+	margin: 20px auto;
+}
+
+#block2 {
+	background-image: url(img/5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block2 h1 {
+	font-size: 270px;
+	color: #FFF;
+	margin-top: 12%;
+	text-shadow: 0.5px 0.5px 0.5px #ccc;
+}
+
+#block2 p{
+	margin-top: 60px !important;
+}
+
+#block2 .butn {
+	font-size: 26px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+#block3 {
+	background-image: url(img/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block3 h3{
+    color: #FFF !important;
+    font-size: 80px !important;
+	text-shadow: 0.5px 0.5px 0.5px #ccc;
+}
+
+#blocktext1{
+	padding: 25px !important;
+	padding-right: 30px !important;
+	
+}
+
+#blocktext1 h3{
+	color: #434141;
+	font-size: 40px !important;
+	
+}
+
+#blocktext1 p{
+	color: #434141;
+	font-size: 22px !important;
+	line-height: 44px;	
+	margin-bottom: 20px !important;
+}
+
+#block4 {
+	background-image: url(img/4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block4 h1{
+	font-size: 300px;
+	color: #FFF;
+	margin-top: 10%;
+	text-shadow: 0.5px 0.5px 0.5px #ccc;
+}
+
+#block4 .butn {
+	font-size: 26px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#block5 {
+	background-image: url(img/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#block5 h1{
+	font-size: 120px;
+	color: #FFF;
+	margin-top: 4%;
+	text-shadow: 0.5px 0.5px 0.5px #ccc;
+}
+
+footer b{
+	font-size: 50px !important;
+	color: #fff;
+	margin-top: 30px !important;
+}
+=======
+}
+>>>>>>> master

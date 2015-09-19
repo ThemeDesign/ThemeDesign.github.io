@@ -1,0 +1,177 @@
+@font-face {
+	font-family: font_tittle;
+	src: url(fonts/Bellico.ttf);
+}
+
+@font-face {
+	font-family: font_text;
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+.title {
+	font-family: font_tittle !important;
+}
+
+.text {
+	font-family: font_text !important;
+}
+
+header {
+	padding-top: 40px !important;
+}
+
+header h1 {
+	font-size: 120px;
+}
+
+header nav {
+	margin-top: 50px;
+}
+
+header nav>a {
+	margin-left: 40px;
+	font-size: 20px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+header nav>#selected {
+	text-decoration: overline;
+}
+
+header nav>a:first-child {
+	margin-left: 0px !important;
+}
+
+.contitems {
+	padding-top: 50px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.contitems div {
+	padding: 15px;
+}
+
+.contitems img {
+	width: 100%;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.contitems img:hover {
+	opacity: 0.7;
+}
+
+.contitems div>b {
+	position: relative;
+	display: block;
+	text-align: right;
+	padding: 10px;
+	top: -46px;
+	opacity: 0;
+	transition: 0.3s;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FFF;
+	background-color: #2c343b;
+}
+
+.contitems div:hover>b {
+	opacity: 1;
+}
+
+.contentdesign {
+	padding-top: 50px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.contentdescription{
+	padding-right: 15%;
+	padding-left: 15%;	
+}
+
+.contentdesign img {
+	width: 100%;
+}
+
+.contentdescription article{
+	line-height: 34px;
+	font-size: 20px;
+}
+
+.contentdescription header{
+	padding-top: 20px !important;
+}
+
+.hastags {
+	font-size: 18px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.hastags a {
+	margin-left: 15px;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-radius: 4px;
+	padding: 4px;
+	transition: 0.3s;
+}
+
+.hastags a:first-child {
+	margin-left: 0px !important;
+}
+
+.hastags a:hover {
+	background-color: #A5E2E2;
+	font-weight: bold;
+}
+
+.contentcontact {
+	padding-top: 50px;
+	padding-right: 15%;
+	padding-left: 15%;
+}
+
+.contentcontact p {
+	font-size: 22px;
+	line-height: 50px;
+}
+
+footer {
+	margin-top: 30px !important;
+}
+
+footer svg {
+	width: 100px;
+	margin-bottom: 15px;
+}
+
+footer p {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+footer p>b {
+	font-size: 34px !important;
+	margin-left: 15px;
+}
+
+footer p>b:first-child {
+	margin-left: 0px !important;
+}
+
+footer .social {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+nav a:hover {
+	text-decoration: overline;
+}

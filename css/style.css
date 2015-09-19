@@ -1,0 +1,131 @@
+@font-face {
+	font-family: font_tittle;
+	src: url(fonts/Bellico.ttf);
+}
+
+@font-face {
+	font-family: font_text;
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
+
+.title {
+	font-family: font_tittle !important;
+}
+
+.text {
+	font-family: font_text !important;
+}
+
+header {
+	padding-top: 4% !important;
+	margin-bottom: 4em !important;
+}
+
+header h1 {
+	font-size: 170px !important;
+}
+
+header p {
+	font-size: 24px;
+	line-height: 40px;
+}
+
+header h1::after {
+	content: " ";
+	border: solid 2px #2c343b;
+	display: block;
+	width: 50%;
+	margin: 20px auto;
+	transition: all 0.7s;
+}
+
+#theme1,
+#theme2 {
+	border-right: 1px solid #CCC;
+}
+
+#theme1 a,
+#theme2 a,
+#theme3 a,
+#theme4 a {
+	font-size: 30px;
+	background-color: #2c343b;
+	width: 60px;
+	height: 60px;
+	padding-top: 15px;
+	border-radius: 45px;
+	color: #FFF;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#theme1 p,
+#theme2 p,
+#theme3 p,
+#theme4 p{
+	text-align: center;
+	line-height: 85px;
+	margin-top: 18em;
+}
+
+#theme1:hover a {
+	opacity: 1
+}
+
+#theme2:hover a {
+	opacity: 1
+}
+
+#theme3:hover a {
+	opacity: 1
+}
+
+#theme4:hover a {
+	opacity: 1
+}
+
+#theme1 div {
+	height: 50em;
+	max-height: 50em;
+	min-height: 50em;
+	background-image: url(img/theme1.jpg);
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#theme2 div {
+	height: 50em;
+	max-height: 50em;
+	min-height: 50em;
+	background-image: url(img/theme2.jpg);
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#theme3 div {
+	height: 50em;
+	max-height: 50em;
+	min-height: 50em;
+	background-image: url(img/theme3.png);
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#theme4 div {
+	height: 50em;
+	max-height: 50em;
+	min-height: 50em;
+	background-image: url(img/theme4.png);
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 6em !important;
+	border-top: 1px solid #ccc;
+}
