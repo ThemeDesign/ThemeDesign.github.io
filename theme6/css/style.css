@@ -1,6 +1,6 @@
 @font-face {
 	font-family: font_title;
-	src: url(fonts/title.ttf);
+	src: url(fonts/title3.ttf);
 }
 
 @font-face {
@@ -23,15 +23,27 @@ body {
 header {
 	background-image: url(img/1.jpg);
 	background-size: cover;
+	padding-top: 5% !important;
 }
 
 header .centerkol {
-	margin-top: 0px !important;
+	margin-top: 5.5% !important;
 }
 
 header h1 {
-	font-size: 180px !important;
+	font-size: 140px !important;
 	color: #FFF !important;
 	font-weight: bolder;
-	text-shadow: 1px 1px 1px #ccc;
+	text-shadow: 1px 1px 1px #464646;
+	margin-bottom: 20px !important;
+}
+
+header .forminput {
+	font-size: 25px !important;
+}
+
+header .groupinputs{
+	width: 50% !important;
+	float: none;
+	margin: 0 auto;
 }
