@@ -44,14 +44,16 @@ header h1::after {
 }
 
 #theme1,
-#theme2 {
+#theme2,
+#theme4{
 	border-right: 1px solid #CCC;
 }
 
 #theme1 a,
 #theme2 a,
 #theme3 a,
-#theme4 a {
+#theme4 a,
+#theme5 a{
 	font-size: 30px;
 	background-color: #2c343b;
 	width: 60px;
@@ -66,7 +68,8 @@ header h1::after {
 #theme1 p,
 #theme2 p,
 #theme3 p,
-#theme4 p{
+#theme4 p,
+#theme5 p{
 	text-align: center;
 	line-height: 85px;
 	margin-top: 18em;
@@ -87,6 +90,11 @@ header h1::after {
 #theme4:hover a {
 	opacity: 1
 }
+
+#theme5:hover a {
+	opacity: 1
+}
+
 
 #theme1 div {
 	height: 50em;
@@ -123,6 +131,18 @@ header h1::after {
 	max-height: 50em;
 	min-height: 50em;
 	background-image: url(img/theme4.png);
+	cursor: pointer;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 6em !important;
+	border-top: 1px solid #ccc;
+}
+
+#theme5 div {
+	height: 50em;
+	max-height: 50em;
+	min-height: 50em;
+	background-image: url(img/theme5.png);
 	cursor: pointer;
 	background-size: contain;
 	background-repeat: no-repeat;
