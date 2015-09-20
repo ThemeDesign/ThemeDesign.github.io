@@ -21,22 +21,62 @@ body {
 	font-family: font_text !important;
 }
 
-header img{
+header img {
 	border: 10px solid #000;
 	width: 80%;
 	margin-top: 25%;
 }
 
-#text1{
-	
-}
+#text1 {}
 
-#text1 b{
+#text1 b {
 	display: block;
 	text-align: center;
 	font-size: 70px !important;
 	margin-top: 35%;
 	line-height: 140px;
 	padding: 5px !important;
-	color: #000; 
+	color: #000;
+}
+
+#firstimage {
+	margin-top: 15em;
+	margin-bottom: 6em;
+}
+
+#firstimage img {
+	width: 50%;
+	float: left;
+}
+
+#firstimage h3 {
+	float: left;
+	background-color: #FFF;
+	margin-left: -90px;
+	padding: 10px;
+	border: 4px solid;
+}
+
+#secondimage img {
+	width: 40%;
+	float: right;
+	margin-top: 16em;
+}
+
+#secondimage h3 {
+	float: right;
+	background-color: #FFF;
+	margin-left: -90px;
+	padding: 10px;
+	border: 4px solid;
+	margin-top: 5em;
+	margin-right: -50px;
+	width: 60%;
+	padding: 20px !important;
+}
+
+#secondimage h3>span {
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 35px;
 }
