@@ -113,4 +113,15 @@ header img {
 
 footer{
 	margin-top: 10em !important;
+	border-top: 5px solid;
+}
+
+footer b{
+	font-size: 40px !important;
+	margin-bottom: 20px !important;
+	margin-left: 40px;
+}
+
+footer b:first-child{
+	margin-left: 0px !important;
 }
