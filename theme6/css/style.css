@@ -80,3 +80,37 @@ header img {
 	font-weight: 100;
 	line-height: 35px;
 }
+
+#thirdimage img {
+	margin-top: 15em !important;
+	float: left;
+}
+
+#thirdimage h3 {
+	margin-top: 10em !important;
+	float: left;
+}
+
+#lastimage {
+	text-align: right;
+}
+
+#lastimage img {
+	float: right;
+}
+
+#lastimage h3 {
+	float: left;
+	background-color: #FFF;
+	border: 4px solid;
+	/* padding: 10px; */
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: -15em;
+}
+
+footer{
+	margin-top: 10em !important;
+}
