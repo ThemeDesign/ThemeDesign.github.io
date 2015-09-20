@@ -10,6 +10,7 @@
 
 body {
 	text-rendering: optimizeLegibility;
+	background-color: #FCFCFC;
 }
 
 .title {
@@ -20,30 +21,22 @@ body {
 	font-family: font_text !important;
 }
 
-header {
-	background-image: url(img/1.jpg);
-	background-size: cover;
-	padding-top: 5% !important;
+header img{
+	border: 10px solid #000;
+	width: 80%;
+	margin-top: 25%;
 }
 
-header .centerkol {
-	margin-top: 5.5% !important;
+#text1{
+	
 }
 
-header h1 {
-	font-size: 140px !important;
-	color: #FFF !important;
-	font-weight: bolder;
-	text-shadow: 1px 1px 1px #464646;
-	margin-bottom: 20px !important;
-}
-
-header .forminput {
-	font-size: 25px !important;
-}
-
-header .groupinputs{
-	width: 50% !important;
-	float: none;
-	margin: 0 auto;
+#text1 b{
+	display: block;
+	text-align: center;
+	font-size: 70px !important;
+	margin-top: 35%;
+	line-height: 140px;
+	padding: 5px !important;
+	color: #000;
 }
