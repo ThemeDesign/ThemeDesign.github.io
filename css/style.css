@@ -45,7 +45,8 @@ header h1::after {
 
 #theme1,
 #theme2,
-#theme4{
+#theme4,
+#theme5{
 	border-right: 1px solid #CCC;
 }
 
@@ -147,5 +148,4 @@ header h1::after {
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-top: 6em !important;
-	border-top: 1px solid #ccc;
 }
